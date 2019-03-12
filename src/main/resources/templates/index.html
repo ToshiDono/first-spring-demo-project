@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/head::site-head"/>
+<body>
+<header>
+    <header>
+        <div th:replace="fragments/header :: header"/>
+    </header>
+</header>
+
+<p>
+    Now is: <b th:text="${#execInfo.now.time}"></b>
+</p>
+
+</body>
+</html>
+
+<!--<!DOCTYPE html>-->
+<!--<html xmlns:th=“http://www.thymeleaf.org”>-->
+
+<!--<head th:replace=“layout :: site-head”>-->
+    <!--<title>Welcome to Spring MVC Blog</title>-->
+<!--</head>-->
+
+<!--<body>-->
+
+<!--<header th:replace=“layout :: site-header” />-->
+
+<!--<h1>Welcome to Spring MVC</h1>-->
+<!--Now is: <b th:text=“${execInfo.now.time}”>date and time</b>-->
+
+<!--<footer th:replace=“layout :: site-footer” />-->
+
+<!--</body>-->
+
+<!--</html>-->
