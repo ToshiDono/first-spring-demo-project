@@ -8,10 +8,10 @@
         <version>2.1.3.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.demo</groupId>
-    <artifactId>demoproject</artifactId>
+    <groupId>com.toshi</groupId>
+    <artifactId>spring-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>first-demoproject</name>
+    <name>first-spring-demo-project</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
